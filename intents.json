@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Hi",
+        "Hey there",
+        "What's up",
+        "Greetings",
+        "Yo"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?",
+        "I am good !! What about you?",
+        "Hey! How can I assist you today?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time",
+        "Catch you later",
+        "Farewell",
+        "See ya",
+        "I am leaving",
+        "Talk to you later"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Goodbye! Take care."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Thank you very much",
+        "Thanks a lot",
+        "Much appreciated"
+      ],
+      "responses": [
+        "My pleasure",
+        "You're Welcome",
+        "Anytime!",
+        "Glad to help!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": [
+        "What is Simplilearn?"
+      ],
+      "responses": [
+        "Simplilearn is the popular online Bootcamp & online courses learning platform "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "time_query",
+      "patterns": [
+        "What time is it in New York?",
+        "Tell me the time in London",
+        "Current time in Tokyo",
+        "Time now in Delhi",
+        "What's the time in Paris?",
+        "Can you tell me the current time?",
+        "What's the time now?",
+        "Time please",
+        "Current local time"
+      ],
+      "responses": [
+        "Let me check the time for you.",
+        "I will find the current time in that location.",
+        "The current time is..."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather_query",
+      "patterns": [
+        "What's the weather like in New York?",
+        "Tell me the climate in London",
+        "Current temperature in Tokyo",
+        "How's the weather in Delhi?",
+        "Is it raining in Paris?",
+        "Weather update please",
+        "Will it rain today?",
+        "What's the forecast?",
+        "Weather report"
+      ],
+      "responses": [
+        "Let me check the weather for you.",
+        "I will find the current weather in that city.",
+        "The weather looks like..."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "location_info",
+      "patterns": [
+        "Where is New York?",
+        "Location of London",
+        "Tell me about Paris",
+        "Where can I find Tokyo?",
+        "Give me info about Delhi",
+        "Where is the Eiffel Tower?",
+        "Where is Mount Everest?",
+        "What is the capital of France?",
+        "Tell me about the USA"
+      ],
+      "responses": [
+        "I can help you with information about that place.",
+        "Let me find some details about that location."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "general_question",
+      "patterns": [
+        "How does the internet work?",
+        "What is AI?",
+        "Tell me about space",
+        "How do planes fly?",
+        "What is the meaning of life?",
+        "Explain gravity",
+        "What is climate change?"
+      ],
+      "responses": [
+        "That's an interesting question!",
+        "Let me find some information on that for you.",
+        "Here's what I know about that topic."
+      ],
+      "context": [""]
+    }
+  ]
+}
